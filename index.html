@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html data-joy-color-scheme="light">
+
+<head>
+  <style>
+    h1 {
+      text-align: center;
+    }
+  </style>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style-filled.css">
+  <script src="https://kit.fontawesome.com/55974fa3f0.js" crossorigin="anonymous"></script>
+
+  <title>Avery Chen Website</title>
+</head>
+
+<body>
+
+  <script src="index.js"></script>
+
+  <div id="container">
+    <div class="topnav">
+      <ul id="menu">
+        <li><a id="menu-item" href="mailto: averychen@berkeley.edu">getEmail()</a></li>
+        <li><a id="menu-item" href="#interests_section">getInterests()</a></li>
+        <li><a id="menu-item" href="#projects_section">getProjects()</a></li>
+        <li><a id="menu-item" href="#experience_section">getExperience()</a></li>
+      </ul>
+    </div>
+    <div id="header" class="header">
+      Hi! my name is
+      <b>Avery Chen.</b>
+
+      <div class="typing-container">
+        I like <b>
+          <span class="auto-type"></span>
+
+        </b>
+      </div>
+    </div>
+    <div id="description">
+      <p id="shortintro">
+        I'm a freshman at UC Berkeley, pursuing a degree in Computer Science.
+        I serve as Executive Advisor (previously Executive Director) of
+        <a class="website" href="https://www.notelove.org/">Notelove</a>,
+        a nonprofit organization providing free music lessons to students across the US.
+      </p>
+
+    </div>
+
+    <div id="experience">
+      <a id="experience_section">
+        <h2 id="getExperience">
+          getExperience()
+        </h2>
+      </a>
+      <h3 class="PWBM">
+        Research Intern @
+        <a class="website" href="https://budgetmodel.wharton.upenn.edu/">Penn Wharton Budget Model</a>
+      </h3>
+      <p class="dates">
+        Apr 2022 - Aug 2023
+      </p>
+      <ul>
+        <li id="desc">
+          worked under Boettner Chair Professor Kent Smetters on Census and National Center for Education
+          Statistics research
+        </li>
+        <li id="desc">
+          scraped and cleaned gigabytes of data using the Python pandas, selenium, and numpy libraries for a
+          new feature of the Data View function of the Penn Wharton Budget Model displaying state-level data
+        </li>
+      </ul>
+      <h3 class="CNGF">
+        Data Analysis Intern @
+        <a class="website" href="https://cngf.org/">California Native Garden Foundation</a>
+      </h3>
+      <p class="dates">
+        Jun 2021 - Aug 2022
+      </p>
+      <ul>
+        <li id="desc">
+          initiated data analytics project with the SJECCD College District and the California Native Garden
+          Foundation to document the interest in emerging green jobs, volunteer interest and retention
+        </li>
+        <li id="desc">
+          performed data analysis on over 3 months of volunteer data using R, Tableau, Python Pandas
+        </li>
+        <li id="desc">
+          findings were used in grant applicants, city proposals, marketing, recruitment, volunteer retention
+        </li>
+      </ul>
+      <h3 class="Notelove">
+        Executive Advisor, Executive Director @
+        <a class="website" href="https://www.notelove.org/">Notelove</a>
+      </h3>
+      <p class="dates">
+        Aug 2019 - Present
+      </p>
+      <ul>
+        <li id="desc">
+          grew student base from 7 to 273; grow instructors from 12 from 1 high school to 248 instructors from
+          18 high schools teaching 19 instruments
+        </li>
+        <li id="desc">
+          obtained $10,000 in funding through grants from the City of Sunnyvale and Sunnyvale Rotary
+          Foundation and donations
+        </li>
+        <li id="desc">
+          initiated and organized first High School Freshman Workshop with 50 participants, first Winter
+          Concert with 29 performances, and first Music Theory/History Workshop
+        </li>
+      </ul>
+    </div>
+
+    <div id="projects">
+      <a id="projects_section">
+        <h2 id="getProjects">
+          getProjects()
+        </h2>
+      </a>
+      <div class="Survivor">
+        <a id="Survivor-website"
+          href="https://averychenmonkey.wixsite.com/survivor-winner-mach/post/predicting-survivor-winners-with-machine-learning-1">
+          <div id="Survivor-text">
+            <h3 class="Survivor-title">
+              Survivor Machine Learning Winner Prediction
+            </h3>
+            <p>
+              As a huge Survivor fan, I have always wondered whether it is possible to predict who will
+              win
+              the
+              show. In this project, I utilized open-source Survivor data and a multivariate logistic
+              regression
+              model to predict which contestants would win Survivor.
+            </p>
+            <p>
+              <b>Tools used:</b> pandas, ggplot2, statsmodels
+            </p>
+
+          </div>
+
+          <img id="Survivor-image" src="immunity.png"
+            alt="data visualization showing percent immunity won by Survivor winners and non-winners">
+
+        </a>
+
+      </div>
+      <div class="website-project">
+        <a id="this-website" href="#menu">
+
+          <div id="website-text">
+            <h3 class="website-title">
+              Personal Website
+            </h3>
+            <p>
+              As part of the CS Kickstart program at UC Berkeley, I coded this personal website as part of
+              my
+              final project. Some of my favorite features include the typing and floating squares
+              background.
+            </p>
+            <p>
+              <b>Tools used:</b> HTML, CSS, JavaScript
+            </p>
+
+          </div>
+
+          <img id="website-image" src="website_screenshot.png"
+            alt="screenshot showing a purple home page of Avery Chen's personal website">
+        </a>
+      </div>
+
+    </div>
+
+    <div id="interests">
+      <a id="interests_section">
+        <h2 id="getInterests">
+          getInterests()
+        </h2>
+        <h3>Outside of tech, I'm interested in a variety of things!</h3>
+        <div id="interests-text">
+
+          <ul>
+            <li id="desc">
+              some of my favorite book 📚 genres include economics 💵, psychology 🧠, self-development 💪,
+              historical
+              fiction 🏰, and
+              mindfulness 🌱. Feel free to check out what I've read on this
+              <a id="notion" class="website"
+                href="https://www.notion.so/88d9bd1382d54a2d9cd1a313d9175643?v=a3840af6ab974f5ebb60b92a2e3be2f7&pvs=4">Notion</a>.
+
+            </li>
+            <li id="desc">
+              I enjoy running 🏃‍♀️, hiking ⛰️, and most outdoor activities. I love going on walks with my
+              dog, Katie 🐶.
+            </li>
+            <li id="desc">
+              as an avid musician (mainly flutist 🪈) in high school, I love meeting up with friends to
+              sight-read chamber music or play tunes on piano from La La Land. You can check out my playing
+              on my <a id="YouTube" class="website" href="https://www.youtube.com/@averychen7647/videos">YouTube</a>.
+            </li>
+          </ul>
+
+        </div>
+
+        <img id="averychen" src="averychen.jpg" alt="a girl stands in a white dress under a stone arch">
+      </a>
+    </div>
+    <div class="social-media">
+      <ul id="socials">
+        <li><a id="social-link" href="https://github.com/abosflutely"><i class="fa-brands fa-github"></i></a>
+        </li>
+        <li><a id="social-link" href="https://www.linkedin.com/in/avery-chen53/"><i
+              class="fa-brands fa-linkedin"></i></a>
+        </li>
+        <li id="copyright">
+          <h4>
+            © 2023 by Avery Chen.
+          </h4>
+
+
+        </li>
+      </ul>
+
+    </div>
+  </div>
+
+
+
+  <!-- typing animation -->
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed(".auto-type", {
+      strings: ["coding.", "solving problems.", "meeting people.", "volunteering.", "reading.", "eating.", "watching Survivor."],
+      typeSpeed: 200,
+      backSpeed: 200,
+      loop: true
+    })
+
+  </script>
+  <!-- circles below -->
+  <ul class='circles'>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
+
+</body>
+
+</html>
