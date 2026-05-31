@@ -124,17 +124,20 @@ h3 {
 
   .website-project,
   .Survivor,
+  .cs180-project,
   #interests {
     float: left;
   }
 
   #website-image,
-  #Survivor-image {
+  #Survivor-image,
+  #buff-avery {
     width: 45%;
   }
 
   #website-text,
-  #Survivor-text {
+  #Survivor-text,
+  #cs180-text {
     float: left;
     width: 45%;
     padding-right: 10px;
@@ -157,7 +160,8 @@ h3 {
 @media screen and (max-width:700px) {
 
   .website-project,
-  .Survivor {
+  .Survivor,
+  .cs180-project {
     display: inline-block;
     width: 100%;
     margin-top: 2%;
@@ -172,7 +176,8 @@ h3 {
   }
 
   #website-image,
-  #Survivor-image {
+  #Survivor-image,
+  #buff-avery {
     width: 100%;
   }
 
@@ -196,7 +201,8 @@ h3 {
   }
 }
 
-.website-project:hover {
+.website-project:hover,
+.cs180-project:hover {
   outline: 2px #AFEEEE;
   outline-style: solid;
   outline-offset: 1rem;
