@@ -1,298 +1,202 @@
 <!DOCTYPE html>
-<html data-joy-color-scheme="light">
+<html lang="en">
 
 <head>
-  <style>
-    h1 {
-      text-align: center;
-    }
-  </style>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta property=’og:title’ content='Avery Chen' />
-  <meta property=’og:image:url’ content='https://ibb.co/rfDprK2'>
-  <meta property=’og:description’ content=' Avery Chen Personal Website' />
-  <meta property=’og:url’ content=' averychen.me' />
-  <meta property='og:image:width' content='2510' />
-  <meta property='og:image:height' content='1485' />
-  <meta property="og:type" content='website'>
+  <meta property="og:title" content="Avery Chen">
+  <meta property="og:image:url" content="https://ibb.co/rfDprK2">
+  <meta property="og:description" content="Avery Chen Personal Website">
+  <meta property="og:url" content="https://averychen.me">
+  <meta property="og:image:width" content="2510">
+  <meta property="og:image:height" content="1485">
+  <meta property="og:type" content="website">
   <link rel="stylesheet" href="style-filled.css">
   <script src="https://kit.fontawesome.com/55974fa3f0.js" crossorigin="anonymous"></script>
-
-  <title>Avery Chen Website</title>
+  <title>Avery Chen</title>
 </head>
 
 <body>
-
-  <script src="index.js"></script>
-
-  <div id="container">
-    <div class="topnav">
-      <ul id="menu">
-        <li><a id="menu-item" href="mailto: averychen@berkeley.edu">getEmail()</a></li>
-        <li><a id="menu-item" href="#interests_section">getInterests()</a></li>
-        <li><a id="menu-item" href="#projects_section">getProjects()</a></li>
-        <li><a id="menu-item" href="#experience_section">getExperience()</a></li>
-      </ul>
+  <header class="site-header">
+    <div class="bar">
+      <a class="wordmark" href="#">Avery Chen</a>
+      <nav aria-label="Primary">
+        <ul class="menu">
+          <li><a href="#experience">getExperience()</a></li>
+          <li><a href="#projects">getProjects()</a></li>
+          <li><a href="#interests">getInterests()</a></li>
+          <li><a href="mailto:averychen@berkeley.edu">getEmail()</a></li>
+        </ul>
+      </nav>
     </div>
-    <div id="header" class="header">
-      Hi! my name is
-      <b>Avery Chen.</b>
+  </header>
 
-      <div class="typing-container">
-        I like <b>
-          <span class="auto-type"></span>
-
-        </b>
-      </div>
-    </div>
-    <div id="description">
-      <p id="shortintro">
+  <main>
+    <section class="hero">
+      <p class="hero-kicker">Hi, my name is</p>
+      <h1>Avery Chen.</h1>
+      <p class="typing-line">
+        I like <span class="auto-type"></span>
+      </p>
+      <p class="intro">
         I'm a first year Master's student at Stanford University, studying CS with an AI specialization. Previously, I graduated from UC Berkeley with EECS Honors
-        in three years, where I conducted research at the <a class="website" href="https://bair.berkeley.edu/">Berkeley Artificial Intelligence Research Lab</a> improving machine translation 
-        for low-resource Asian languages through the <a class="website" href="https://dharmamitra.org/?input_encoding=auto&target_lang=english">MITRA Project</a> and GUI Agent Automation in collaboration
-        with Panasonic. I've worked as a software engineering intern at Google, <a class="website" href="https://aurora.tech/">Aurora</a>, a self-driving truck company, and the 
-        <a class="website" href="https://budgetmodel.wharton.upenn.edu/">Penn Wharton Budget Model</a>.
-
-        I'm passionate about increasing opportunities and accessibility for female-identifying engineers, and served as the Vice President of Corporate for Berkeley's 
-        <a class="website" href="https://swe.berkeley.edu/">Society of Women Engineers</a>.
-
+        in three years, where I conducted research at the <a href="https://bair.berkeley.edu/">Berkeley Artificial Intelligence Research Lab</a> improving machine translation
+        for low-resource Asian languages through the <a href="https://dharmamitra.org/?input_encoding=auto&target_lang=english">MITRA Project</a> and GUI Agent Automation in collaboration
+        with Panasonic. I've worked as a software engineering intern at Google, <a href="https://aurora.tech/">Aurora</a>, a self-driving truck company, and the
+        <a href="https://budgetmodel.wharton.upenn.edu/">Penn Wharton Budget Model</a>.
+        I'm passionate about increasing opportunities and accessibility for female-identifying engineers, and served as the Vice President of Corporate for Berkeley's
+        <a href="https://swe.berkeley.edu/">Society of Women Engineers</a>.
       </p>
+    </section>
 
-    </div>
-
-    <div id="experience">
-      <a id="experience_section">
-        <h2 id="getExperience">
-          getExperience()
-        </h2>
-      </a>
-      <h3 class="Google">
-        Software Engineering Intern @
-        <a class="website" href="https://www.google.com/">Google</a>
-      </h3>
-      <p class="dates">
-        May 2026 - August 2026
-      </p>
-
-      <h3 class="Aurora">
-        Software Engineering Intern @
-        <a class="website" href="https://aurora.tech/">Aurora</a>
-      </h3>
-      <p class="dates">
-        May 2025 - August 2025
-      </p>
-
-
-      <h3 class="BAIR">
-        Undegraduate Researcher @
-        <a class="website" href="https://bair.berkeley.edu/">Berkeley Artificial Intelligence Research Lab</a>
-      </h3>
-      <p class="dates">
-        May 2024 - May 2026
-      </p>
-
-      <h3 class="126">
-        Teaching Assistant @ Probability and Random Processes (EECS 126)
-      </h3>
-      <p class="dates">
-        July 2025 - May 2026
-      </p>
-
-      <h3 class="PWBM">
-        Software Engineering Intern, prev. Research Intern @
-        <a class="website" href="https://budgetmodel.wharton.upenn.edu/">Penn Wharton Budget Model</a>
-      </h3>
-      <p class="dates">
-        Apr 2022 - Jan 2025
-      </p>
-
-      <h3 class="SWE PR">
-        Vice President of Corporate Relations, prev. Startup Spring Officer, Professional Development Month Officer, Public Relations Officer @
-        <a class="website" href="https://swe.berkeley.edu/">Society of Women Engineers</a>
-      </h3>
-      <p class="dates">
-        Sept 2023 - May 2026
-      </p>
-      
-      <h3 class="CSM">
-        Tech Mentor, Junior Mentor @
-        <a class="website" href="https://csmentors.berkeley.edu/#/">Computer Science Mentors</a>
-      </h3>
-      <p class="dates">
-        Jan 2024 - Jan 2025
-      </p>
-      
-      
-      <h3 class="Notelove">
-        Executive Advisor, prev. Executive Director & Flute Instructor @
-        <a class="website" href="https://www.notelove.org/">Notelove</a>
-      </h3>
-      <p class="dates">
-        Aug 2019 - Present
-      </p>
-      
-    </div>
-
-    <div id="projects">
-      <a id="projects_section">
-        <h2 id="getProjects">
-          getProjects()
-        </h2>
-      </a>
-      <div class="cs180-project">
-        <a id="180-website" href="https://averychen35.github.io/">
-
-          <div id="cs180-text">
-            <h3 class="website-title">
-              CS180: Computational Photography and Computer Vision
-            </h3>
-            <p>
-              As part of Fall 2025 <a class="website" href="https://cal-cs180.github.io/fa25/">CS 180</a>, I completed a variety of 
-              projects implementing recursive image pyramids, image filters for blurring and isolation of frequencies, autostitching photo
-              mosaics with homography and feature detection, NERF, and diffusion models.
-            </p>
-            <p>
-              <b>Tools used:</b> Python, Scikit-image, Pytorch
-            </p>
-
+    <section id="experience">
+      <h2>getExperience()</h2>
+      <ul class="timeline">
+        <li>
+          <div class="role">
+            <h3>Software Engineering Intern @ <a href="https://www.google.com/">Google</a></h3>
           </div>
-
-          <img id="buff-avery" src="buff_avery.png"
-            alt="image blending of Avery and survivor contestant Jonathan">
-        </a>
-
-      </div>
-      <div class="Survivor">
-        <a id="Survivor-website"
-          href="https://averychenmonkey.wixsite.com/survivor-winner-mach/post/predicting-survivor-winners-with-machine-learning-1">
-          <div id="Survivor-text">
-            <h3 class="Survivor-title">
-              Survivor Machine Learning Winner Prediction
-            </h3>
-            <p>
-              As a huge Survivor fan, I have always wondered whether it is possible to predict who will
-              win! In this project, I utilized open-source Survivor data and a multivariate logistic
-              regression
-              model to predict which contestants would win Survivor.
-            </p>
-            <p>
-              <b>Tools used:</b> pandas, R, Scikit-learn
-            </p>
-
+          <p class="dates">May 2026 — August 2026</p>
+        </li>
+        <li>
+          <div class="role">
+            <h3>Software Engineering Intern @ <a href="https://aurora.tech/">Aurora</a></h3>
           </div>
+          <p class="dates">May 2025 — August 2025</p>
+        </li>
+        <li>
+          <div class="role">
+            <h3>Undergraduate Researcher @ <a href="https://bair.berkeley.edu/">Berkeley Artificial Intelligence Research Lab</a></h3>
+          </div>
+          <p class="dates">May 2024 — May 2026</p>
+        </li>
+        <li>
+          <div class="role">
+            <h3>Teaching Assistant @ Probability and Random Processes (EECS 126)</h3>
+          </div>
+          <p class="dates">July 2025 — May 2026</p>
+        </li>
+        <li>
+          <div class="role">
+            <h3>Software Engineering Intern, prev. Research Intern @ <a href="https://budgetmodel.wharton.upenn.edu/">Penn Wharton Budget Model</a></h3>
+          </div>
+          <p class="dates">Apr 2022 — Jan 2025</p>
+        </li>
+        <li>
+          <div class="role">
+            <h3>Vice President of Corporate Relations, prev. Startup Spring Officer, Professional Development Month Officer, Public Relations Officer @ <a href="https://swe.berkeley.edu/">Society of Women Engineers</a></h3>
+          </div>
+          <p class="dates">Sept 2023 — May 2026</p>
+        </li>
+        <li>
+          <div class="role">
+            <h3>Tech Mentor, Junior Mentor @ <a href="https://csmentors.berkeley.edu/#/">Computer Science Mentors</a></h3>
+          </div>
+          <p class="dates">Jan 2024 — Jan 2025</p>
+        </li>
+        <li>
+          <div class="role">
+            <h3>Executive Advisor, prev. Executive Director &amp; Flute Instructor @ <a href="https://www.notelove.org/">Notelove</a></h3>
+          </div>
+          <p class="dates">Aug 2019 — Present</p>
+        </li>
+      </ul>
+    </section>
 
-          <img id="Survivor-image" src="immunity.png"
-            alt="data visualization showing percent immunity won by Survivor winners and non-winners">
-
+    <section id="projects">
+      <h2>getProjects()</h2>
+      <article class="project">
+        <div class="project-copy">
+          <h3><a href="https://averychen35.github.io/">CS180: Computational Photography and Computer Vision</a></h3>
+          <p>
+            As part of Fall 2025 <a href="https://cal-cs180.github.io/fa25/">CS 180</a>, I completed a variety of
+            projects implementing recursive image pyramids, image filters for blurring and isolation of frequencies, autostitching photo
+            mosaics with homography and feature detection, NERF, and diffusion models.
+          </p>
+          <p class="tools"><span>Tools used</span> Python, Scikit-image, Pytorch</p>
+        </div>
+        <a class="project-image" href="https://averychen35.github.io/">
+          <img src="buff_avery.png" alt="image blending of Avery and survivor contestant Jonathan">
         </a>
+      </article>
 
-      </div>
-      <div class="website-project">
-        <a id="this-website" href="#menu">
+      <article class="project">
+        <div class="project-copy">
+          <h3><a href="https://averychenmonkey.wixsite.com/survivor-winner-mach/post/predicting-survivor-winners-with-machine-learning-1">Survivor Machine Learning Winner Prediction</a></h3>
+          <p>
+            As a huge Survivor fan, I have always wondered whether it is possible to predict who will
+            win! In this project, I utilized open-source Survivor data and a multivariate logistic
+            regression model to predict which contestants would win Survivor.
+          </p>
+          <p class="tools"><span>Tools used</span> pandas, R, Scikit-learn</p>
+        </div>
+        <a class="project-image" href="https://averychenmonkey.wixsite.com/survivor-winner-mach/post/predicting-survivor-winners-with-machine-learning-1">
+          <img src="immunity.png" alt="data visualization showing percent immunity won by Survivor winners and non-winners">
+        </a>
+      </article>
 
-          <div id="website-text">
-            <h3 class="website-title">
-              Personal Website
-            </h3>
-            <p>
+      <article class="project">
+        <div class="project-copy">
+          <h3><a href="#">Personal Website</a></h3>
+          <p>
               As part of the CS Kickstart program at UC Berkeley, I coded this personal website as part of
-              my
-              final project. Some of my favorite features include the typing carousel and background with floating squares.
-            </p>
-            <p>
-              <b>Tools used:</b> HTML, CSS, JavaScript
-            </p>
-
-          </div>
-
-          <img id="website-image" src="website_screenshot.png"
-            alt="screenshot showing a purple home page of Avery Chen's personal website">
+              my final project. Some of my favorite features include the typing carousel.
+          </p>
+          <p class="tools"><span>Tools used</span> HTML, CSS, JavaScript</p>
+        </div>
+        <a class="project-image" href="#">
+          <img src="website_screenshot.png" alt="screenshot of Avery Chen's personal website">
         </a>
-      </div>
+      </article>
+    </section>
 
-    </div>
-
-    <div id="interests">
-      <a id="interests_section">
-        <h2 id="getInterests">
-          getInterests()
-        </h2>
-        <h3>Outside of tech, I'm interested in a variety of things!</h3>
-        <div id="interests-text">
-
+    <section id="interests">
+      <h2>getInterests()</h2>
+      <div class="interests-layout">
+        <div class="interests-copy">
+          <p class="interests-lead">Outside of tech, I'm interested in a variety of things!</p>
           <ul>
-            <li id="desc">
-              Some of my favorite book 📚 genres include economics 💵, psychology 🧠, self-development 💪,
-              historical
-              fiction 🏰, and
-              mindfulness 🌱. You can check out what I've read on this
-              <a id="notion" class="website"
-                href="https://www.notion.so/88d9bd1382d54a2d9cd1a313d9175643?v=a3840af6ab974f5ebb60b92a2e3be2f7&pvs=4">Notion</a>.
-
+            <li>
+              Some of my favorite book genres include economics, psychology, self-development,
+              historical fiction, and mindfulness. You can check out what I've read on this
+              <a href="https://www.notion.so/88d9bd1382d54a2d9cd1a313d9175643?v=a3840af6ab974f5ebb60b92a2e3be2f7&pvs=4">Notion</a>.
             </li>
-            <li id="desc">
-              I enjoy running 🏃‍♀️, hiking ⛰️, and most outdoor activities. I love going on walks with my
-              dog, Katie 🐶.
+            <li>
+              I enjoy running, hiking, and most outdoor activities. I love going on walks with my
+              dog, Katie.
             </li>
-            <li id="desc">
+            <li>
               I'm currently learning the carillon at Berkeley! You can check out my high school music endeavors
-              on my <a id="YouTube" class="website" href="https://www.youtube.com/@averychen7647/videos">YouTube</a>.
+              on my <a href="https://www.youtube.com/@averychen7647/videos">YouTube</a>.
             </li>
           </ul>
-
         </div>
+        <img class="portrait" src="averychen.jpg" alt="Avery standing in a white dress under a stone arch">
+      </div>
+    </section>
+  </main>
 
-        <img id="averychen" src="averychen.jpg" alt="a girl stands in a white dress under a stone arch">
-      </a>
-    </div>
-    <div class="social-media">
-      <ul id="socials">
-        <li><a id="social-link" href="https://github.com/averychen35"><i class="fa-brands fa-github"></i></a>
-        </li>
-        <li><a id="social-link" href="https://www.linkedin.com/in/avery-chen53/"><i
-              class="fa-brands fa-linkedin"></i></a>
-        </li>
-        <li id="copyright">
-          <h4>
-            © 2026 by Avery Chen.
-          </h4>
-
-
-        </li>
+  <footer class="site-footer">
+    <div class="bar">
+      <ul class="socials">
+        <li><a href="https://github.com/averychen35" aria-label="GitHub"><i class="fa-brands fa-github"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/avery-chen53/" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a></li>
       </ul>
-
+      <p class="copyright">© 2026 Avery Chen</p>
     </div>
-  </div>
+  </footer>
 
-
-
-  <!-- typing animation -->
   <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
   <script>
     var typed = new Typed(".auto-type", {
       strings: ["coding.", "solving problems.", "meeting people.", "volunteering.", "reading.", "eating.", "watching Survivor.", "running.", "exploring."],
-      typeSpeed: 200,
-      backSpeed: 200,
+      typeSpeed: 70,
+      backSpeed: 40,
+      backDelay: 1600,
       loop: true
     })
-
   </script>
-  <!-- circles below -->
-  <ul class='circles'>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-  </ul>
-
 </body>
 
 </html>
