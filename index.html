@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Avery Chen">
   <meta property="og:title" content="Avery Chen">
   <meta property="og:image:url" content="https://ibb.co/rfDprK2">
   <meta property="og:description" content="Avery Chen Personal Website">
@@ -12,191 +13,210 @@
   <meta property="og:image:width" content="2510">
   <meta property="og:image:height" content="1485">
   <meta property="og:type" content="website">
-  <link rel="stylesheet" href="style-filled.css">
-  <script src="https://kit.fontawesome.com/55974fa3f0.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="stylesheet.css">
   <title>Avery Chen</title>
 </head>
 
 <body>
-  <header class="site-header">
-    <div class="bar">
-      <a class="wordmark" href="#">Avery Chen</a>
-      <nav aria-label="Primary">
-        <ul class="menu">
-          <li><a href="#experience">getExperience()</a></li>
-          <li><a href="#projects">getProjects()</a></li>
-          <li><a href="#interests">getInterests()</a></li>
-          <li><a href="mailto:averychen@berkeley.edu">getEmail()</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+  <main class="page">
 
-  <main>
-    <section class="hero">
-      <p class="hero-kicker">Hi, my name is</p>
-      <h1>Avery Chen.</h1>
-      <p class="typing-line">
-        I like <span class="auto-type"></span>
-      </p>
-      <p class="intro">
-        I'm a first year Master's student at Stanford University, studying CS with an AI specialization. Previously, I graduated from UC Berkeley with EECS Honors
-        in three years, where I conducted research at the <a href="https://bair.berkeley.edu/">Berkeley Artificial Intelligence Research Lab</a> improving machine translation
-        for low-resource Asian languages through the <a href="https://dharmamitra.org/?input_encoding=auto&target_lang=english">MITRA Project</a> and GUI Agent Automation in collaboration
-        with Panasonic. I've worked as a software engineering intern at Google, <a href="https://aurora.tech/">Aurora</a>, a self-driving truck company, and the
-        <a href="https://budgetmodel.wharton.upenn.edu/">Penn Wharton Budget Model</a>.
-        I'm passionate about increasing opportunities and accessibility for female-identifying engineers, and served as the Vice President of Corporate for Berkeley's
-        <a href="https://swe.berkeley.edu/">Society of Women Engineers</a>.
-      </p>
+    <!-- Header: name, bio, links, photo -->
+    <section class="intro">
+      <div class="intro-text">
+        <p class="name">Avery Chen</p>
+        <p>
+          I'm a first-year Master's student at Stanford University, studying CS with an AI specialization. I research
+          the effects of AI on the economy at the <a href="https://digitaleconomy.stanford.edu/">Stanford Digital Economy Lab</a>,
+          working closely with Bharat Chandar on the
+          <a href="https://digitaleconomy.stanford.edu/project/indicators/">AI Economic Indicators</a>.
+        </p>
+        <p>
+          Previously, I graduated from UC Berkeley in three years with a B.A. in Computer Science, completing the
+          <a href="https://eecs.berkeley.edu/resources/undergrads/honors/">EECS Honors Program</a>
+          with a concentration in Economics. I conducted research at the <a
+            href="https://bair.berkeley.edu/">Berkeley Artificial Intelligence Research Lab</a>, improving machine
+          translation for low-resource Asian languages through the <a
+            href="https://dharmamitra.org/?input_encoding=auto&target_lang=english">MITRA Project</a> and co-first
+          authoring a paper. I also explored GUI agent automation in collaboration with Panasonic. I've worked as a software engineering intern at Google, <a
+            href="https://aurora.tech/">Aurora</a>, and the
+          <a href="https://budgetmodel.wharton.upenn.edu/">Penn Wharton Budget Model</a>.
+
+        </p>
+        <p class="links">
+          <a href="mailto:averychn@stanford.edu">Email</a> &nbsp;/&nbsp;
+          <a href="https://www.linkedin.com/in/avery-chen53/">LinkedIn</a> &nbsp;/&nbsp;
+          <a href="https://x.com/a_veryyy">Twitter</a> &nbsp;/&nbsp;
+          <a href="https://github.com/averychen35">GitHub</a> &nbsp;/&nbsp;
+          <a href="https://scholar.google.com/citations?user=U6Cu7UQAAAAJ&hl=en">Google Scholar</a>
+        </p>
+        <p class="links jump">
+          <a href="#experience">Experience</a> &nbsp;&middot;&nbsp;
+          <a href="#publications">Publications</a> &nbsp;&middot;&nbsp;
+          <a href="#projects">Projects</a> &nbsp;&middot;&nbsp;
+          <a href="#interests">Interests</a>
+        </p>
+      </div>
+      <a class="intro-photo" href="headshot.png">
+        <img src="headshot.png" alt="headshot of Avery Chen">
+      </a>
     </section>
 
+    <!-- Experience -->
     <section id="experience">
-      <h2>getExperience()</h2>
-      <ul class="timeline">
+      <h2>Experience</h2>
+
+      <h3>Research</h3>
+      <ul class="entries">
         <li>
-          <div class="role">
-            <h3>Software Engineering Intern @ <a href="https://www.google.com/">Google</a></h3>
-          </div>
-          <p class="dates">May 2026 — August 2026</p>
+          <span class="papertitle">Graduate Research Assistant</span> @ <a
+            href="https://digitaleconomy.stanford.edu/">Stanford
+            Digital Economy Lab</a>
+          <br>Advisor: Prof. Erik Brynjolfsson
+          <br><em>Sep 2026 — Present</em>
         </li>
         <li>
-          <div class="role">
-            <h3>Software Engineering Intern @ <a href="https://aurora.tech/">Aurora</a></h3>
-          </div>
-          <p class="dates">May 2025 — August 2025</p>
+          <span class="papertitle">Research Assistant</span> @ <a href="https://bair.berkeley.edu/">Berkeley
+            Artificial Intelligence Research Lab</a>
+          <br>Advisor: Prof. Kurt Keutzer
+          <br><em>May 2024 — May 2026</em>
         </li>
         <li>
-          <div class="role">
-            <h3>Undergraduate Researcher @ <a href="https://bair.berkeley.edu/">Berkeley Artificial Intelligence Research Lab</a></h3>
-          </div>
-          <p class="dates">May 2024 — May 2026</p>
+          <span class="papertitle">Research Intern</span> @ <a href="https://budgetmodel.wharton.upenn.edu/">Penn
+            Wharton Budget Model</a>
+          <br>Advisor: Prof. Kent Smetters
+          <br><em>Apr 2022 — Aug 2023</em>
+        </li>
+      </ul>
+
+      <h3>Professional</h3>
+      <ul class="entries">
+        <li>
+          <span class="papertitle">Software Engineering Intern</span> @ <a href="https://www.google.com/">Google</a>
+          <br>Vertex AI, Gemini Model Serving
+          <br><em>May 2026 — Aug 2026</em>
         </li>
         <li>
-          <div class="role">
-            <h3>Teaching Assistant @ Probability and Random Processes (EECS 126)</h3>
-          </div>
-          <p class="dates">July 2025 — May 2026</p>
+          <span class="papertitle">Software Engineering Intern</span> @ <a href="https://aurora.tech/">Aurora</a>
+          <br>Deployment and Linux Platforms
+          <br><em>May 2025 — Aug 2025</em>
         </li>
         <li>
-          <div class="role">
-            <h3>Software Engineering Intern, prev. Research Intern @ <a href="https://budgetmodel.wharton.upenn.edu/">Penn Wharton Budget Model</a></h3>
-          </div>
-          <p class="dates">Apr 2022 — Jan 2025</p>
+          <span class="papertitle">Software Engineering Intern</span> @ <a
+            href="https://budgetmodel.wharton.upenn.edu/">Penn Wharton Budget Model</a>
+          <br>Advisor: Prof. Kent Smetters
+          <br><em>Jun 2024 — Jan 2025</em>
+        </li>
+      </ul>
+
+      <h3>Teaching &amp; Service</h3>
+      <ul class="entries">
+        <li>
+          <span class="papertitle">Teaching Assistant</span> @ Probability and Random Processes (EECS 126)
+          <br><em>Jul 2025 — May 2026</em>
         </li>
         <li>
-          <div class="role">
-            <h3>Vice President of Corporate Relations, prev. Startup Spring Officer, Professional Development Month Officer, Public Relations Officer @ <a href="https://swe.berkeley.edu/">Society of Women Engineers</a></h3>
-          </div>
-          <p class="dates">Sept 2023 — May 2026</p>
+          <span class="papertitle">Vice President of Corporate Relations</span> @ <a
+            href="https://swe.studentorg.berkeley.edu/">Society of Women Engineers</a>
+          <br><em>Sep 2023 — May 2026</em>
         </li>
         <li>
-          <div class="role">
-            <h3>Tech Mentor, Junior Mentor @ <a href="https://csmentors.berkeley.edu/#/">Computer Science Mentors</a></h3>
-          </div>
-          <p class="dates">Jan 2024 — Jan 2025</p>
+          <span class="papertitle">Tech Mentor, Junior Mentor</span> @ <a
+            href="https://csmentors.studentorg.berkeley.edu/">Computer Science Mentors</a>
+          <br><em>Jan 2024 — Jan 2025</em>
         </li>
         <li>
-          <div class="role">
-            <h3>Executive Advisor, prev. Executive Director &amp; Flute Instructor @ <a href="https://www.notelove.org/">Notelove</a></h3>
-          </div>
-          <p class="dates">Aug 2019 — Present</p>
+          <span class="papertitle">Executive Advisor</span>, prev. Executive Director &amp; Flute Instructor @ <a
+            href="https://www.notelove.org/">Notelove</a>
+          <br><em>Aug 2019 — Present</em>
         </li>
       </ul>
     </section>
 
+    <!-- Publications -->
+    <section id="publications">
+      <h2>Publications</h2>
+      <ul class="entries">
+        <li>
+          <a href="https://aclanthology.org/2025.nlp4dh-1.12/"><span class="papertitle">MITRA-zh-eval: Using a Buddhist
+              Chinese Language Evaluation Dataset to Assess Machine Translation and Evaluation Metrics</span></a>
+          <br>Sebastian Nehrdich, <strong>Avery Chen</strong>, Marcus Bingenheimer, Lu Huang, Rouying Tang, Xiang Wei,
+          Leijie Zhu, Kurt Keutzer
+          <br><em>Proceedings of the 5th International Conference on Natural Language Processing for Digital Humanities
+            (NLP4DH)</em>, 2025
+        </li>
+      </ul>
+    </section>
+
+    <!-- Projects -->
     <section id="projects">
-      <h2>getProjects()</h2>
+      <h2>Projects</h2>
+
       <article class="project">
-        <div class="project-copy">
-          <h3><a href="https://averychen35.github.io/">CS180: Computational Photography and Computer Vision</a></h3>
+        <a class="thumb" href="https://averychen35.github.io/">
+          <img src="buff_avery.png" alt="image blending of Avery and Survivor contestant Jonathan">
+        </a>
+        <div>
+          <a href="https://averychen35.github.io/"><span class="papertitle">CS180: Computational Photography and
+              Computer Vision</span></a>
+          <br><em>Python, scikit-image, PyTorch</em>
           <p>
             As part of Fall 2025 <a href="https://cal-cs180.github.io/fa25/">CS 180</a>, I completed a variety of
-            projects implementing recursive image pyramids, image filters for blurring and isolation of frequencies, autostitching photo
-            mosaics with homography and feature detection, NERF, and diffusion models.
+            projects implementing recursive image pyramids, image filters for blurring and isolation of frequencies,
+            autostitching photo mosaics with homography and feature detection, NeRF, and diffusion models. Pictured is
+            my face merged with that of the very buff Survivor player Jonathan.
           </p>
-          <p class="tools"><span>Tools used</span> Python, Scikit-image, Pytorch</p>
         </div>
-        <a class="project-image" href="https://averychen35.github.io/">
-          <img src="buff_avery.png" alt="image blending of Avery and survivor contestant Jonathan">
-        </a>
       </article>
 
       <article class="project">
-        <div class="project-copy">
-          <h3><a href="https://averychenmonkey.wixsite.com/survivor-winner-mach/post/predicting-survivor-winners-with-machine-learning-1">Survivor Machine Learning Winner Prediction</a></h3>
+        <a class="thumb"
+          href="https://averychenmonkey.wixsite.com/survivor-winner-mach/post/predicting-survivor-winners-with-machine-learning-1">
+          <img src="immunity.png"
+            alt="data visualization showing percent immunity won by Survivor winners and non-winners">
+        </a>
+        <div>
+          <a
+            href="https://averychenmonkey.wixsite.com/survivor-winner-mach/post/predicting-survivor-winners-with-machine-learning-1"><span
+              class="papertitle">Survivor Machine Learning Winner Prediction</span></a>
+          <br><em>pandas, R, scikit-learn</em>
           <p>
             As a huge Survivor fan, I have always wondered whether it is possible to predict who will
             win! In this project, I utilized open-source Survivor data and a multivariate logistic
             regression model to predict which contestants would win Survivor.
           </p>
-          <p class="tools"><span>Tools used</span> pandas, R, Scikit-learn</p>
         </div>
-        <a class="project-image" href="https://averychenmonkey.wixsite.com/survivor-winner-mach/post/predicting-survivor-winners-with-machine-learning-1">
-          <img src="immunity.png" alt="data visualization showing percent immunity won by Survivor winners and non-winners">
-        </a>
-      </article>
-
-      <article class="project">
-        <div class="project-copy">
-          <h3><a href="#">Personal Website</a></h3>
-          <p>
-              As part of the CS Kickstart program at UC Berkeley, I coded this personal website as part of
-              my final project. Some of my favorite features include the typing carousel.
-          </p>
-          <p class="tools"><span>Tools used</span> HTML, CSS, JavaScript</p>
-        </div>
-        <a class="project-image" href="#">
-          <img src="website_screenshot.png" alt="screenshot of Avery Chen's personal website">
-        </a>
       </article>
     </section>
 
+    <!-- Interests -->
     <section id="interests">
-      <h2>getInterests()</h2>
-      <div class="interests-layout">
-        <div class="interests-copy">
-          <p class="interests-lead">Outside of tech, I'm interested in a variety of things!</p>
-          <ul>
-            <li>
-              Some of my favorite book genres include economics, psychology, self-development,
-              historical fiction, and mindfulness. You can check out what I've read on this
-              <a href="https://www.notion.so/88d9bd1382d54a2d9cd1a313d9175643?v=a3840af6ab974f5ebb60b92a2e3be2f7&pvs=4">Notion</a>.
-            </li>
-            <li>
-              I enjoy running, hiking, and most outdoor activities. I love going on walks with my
-              dog, Katie.
-            </li>
-            <li>
-              I'm currently learning the carillon at Berkeley! You can check out my high school music endeavors
-              on my <a href="https://www.youtube.com/@averychen7647/videos">YouTube</a>.
-            </li>
-          </ul>
-        </div>
-        <img class="portrait" src="averychen.jpg" alt="Avery standing in a white dress under a stone arch">
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="bar">
-      <ul class="socials">
-        <li><a href="https://github.com/averychen35" aria-label="GitHub"><i class="fa-brands fa-github"></i></a></li>
-        <li><a href="https://www.linkedin.com/in/avery-chen53/" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a></li>
+      <h2>Interests</h2>
+      <ul class="interests">
+        <li>
+          Some of my favorite book genres include economics, psychology, self-development,
+          historical fiction, and mindfulness. You can check out what I've read on
+          <a
+            href="https://www.notion.so/88d9bd1382d54a2d9cd1a313d9175643?v=a3840af6ab974f5ebb60b92a2e3be2f7&pvs=4">Notion</a>.
+        </li>
+        <li>
+          I enjoy running, hiking, climbing, and most outdoor activities. I love going on walks with my
+          dog, Katie.
+        </li>
+        <li>
+          I studied the <a href="https://bells.studentorg.berkeley.edu/">carillon at Berkeley</a> with Simone Browne!
+          You can check out my music endeavors
+          on my <a href="https://www.youtube.com/@averychen7647/videos">YouTube</a>.
+        </li>
       </ul>
-      <p class="copyright">© 2026 Avery Chen</p>
-    </div>
-  </footer>
+    </section>
 
-  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-  <script>
-    var typed = new Typed(".auto-type", {
-      strings: ["coding.", "solving problems.", "meeting people.", "volunteering.", "reading.", "eating.", "watching Survivor.", "running.", "exploring."],
-      typeSpeed: 70,
-      backSpeed: 40,
-      backDelay: 1600,
-      loop: true
-    })
-  </script>
+    <footer class="footer">
+      <p>
+        © 2026 Avery Chen &nbsp;&middot;&nbsp;
+        Design adapted from <a href="https://github.com/jonbarron/jonbarron.github.io">Jon Barron's website</a>.
+      </p>
+    </footer>
+  </main>
 </body>
 
 </html>

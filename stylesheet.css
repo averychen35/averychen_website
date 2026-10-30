@@ -1,0 +1,174 @@
+/* Layout and typography adapted from Jon Barron's website:
+   https://github.com/jonbarron/jonbarron_website */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+  margin: 0;
+  background: #ffffff;
+  color: #000000;
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+a {
+  color: #1772d0;
+  text-decoration: none;
+}
+
+a:focus,
+a:hover {
+  color: #f09228;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+h2 {
+  margin: 0 0 8px;
+  font-weight: normal;
+  font-size: 26px;
+}
+
+.page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.papertitle {
+  font-weight: 700;
+}
+
+.name {
+  padding-top: 20px;
+  margin: 0 0 12px;
+  font-size: 38px;
+  text-align: center;
+}
+
+/* Header */
+.intro {
+  display: flex;
+  align-items: center;
+  gap: 5%;
+  padding: 2.5% 0;
+}
+
+.intro-text {
+  flex: 0 1 63%;
+}
+
+.intro-photo {
+  flex: 0 1 32%;
+}
+
+.intro-photo img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: center 20%;
+  border-radius: 50%;
+}
+
+.links {
+  text-align: center;
+  margin: 8px 0;
+}
+
+.jump {
+  font-size: 15px;
+}
+
+/* Sections */
+section[id] {
+  padding: 16px 0;
+  scroll-margin-top: 12px;
+}
+
+h3 {
+  margin: 14px 0 2px;
+  font-size: 18px;
+  font-weight: normal;
+  color: #555;
+}
+
+.entries {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.entries li {
+  padding: 6px 0;
+}
+
+.project {
+  display: flex;
+  align-items: flex-start;
+  gap: 28px;
+  padding: 16px 0;
+}
+
+.thumb {
+  flex: 0 0 300px;
+}
+
+.thumb img {
+  width: 100%;
+  height: auto;
+}
+
+.project p {
+  margin: 8px 0 0;
+}
+
+.interests {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.interests li {
+  padding: 3px 0;
+}
+
+.footer {
+  padding: 24px 0 32px;
+  text-align: right;
+  font-size: 14px;
+  color: #777;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 14px;
+}
+
+/* Phones: stack photo above text, thumbnails above project text */
+@media (max-width: 600px) {
+  .intro {
+    flex-direction: column-reverse;
+  }
+
+  .intro-photo {
+    width: 55%;
+  }
+
+  .project {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .thumb {
+    flex-basis: auto;
+    width: 100%;
+  }
+
+  .footer {
+    text-align: center;
+  }
+}
